@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB005D06142DD21600AC305C /* PlayScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB005D05142DD21600AC305C /* PlayScoreView.m */; };
+		FB2040361489DECD00496A5C /* SingleStroke.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2040351489DECD00496A5C /* SingleStroke.png */; };
+		FB2F393D148979A700653977 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2F393B148979A700653977 /* libGoogleAdMobAds.a */; };
+		FB2F393E148979A700653977 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB2F393C148979A700653977 /* README.txt */; };
+		FB9ABE6D148978FD0089F766 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ABE69148978FD0089F766 /* AudioToolbox.framework */; };
+		FB9ABE6E148978FD0089F766 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ABE6A148978FD0089F766 /* iAd.framework */; };
+		FB9ABE6F148978FD0089F766 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ABE6B148978FD0089F766 /* MessageUI.framework */; };
+		FB9ABE70148978FD0089F766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9ABE6C148978FD0089F766 /* SystemConfiguration.framework */; };
+		FBA336FA142CBAB5006C8C5F /* PlayTimeProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA336F9142CBAB5006C8C5F /* PlayTimeProgressBar.m */; };
+		FBA75749142E37CF00E4A106 /* PlayFinishView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA75748142E37CF00E4A106 /* PlayFinishView.m */; };
+		FBA7574C142EC3B100E4A106 /* PlayIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA7574B142EC3B100E4A106 /* PlayIntroductionView.m */; };
+		FBA75750142F3EAD00E4A106 /* PlayTimeupView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA7574F142F3EAC00E4A106 /* PlayTimeupView.m */; };
+		FBA75752142F49A900E4A106 /* SingleStroke-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FBA75751142F49A900E4A106 /* SingleStroke-72.png */; };
+		FBBBB4B5142C1B1800E0B039 /* PlayStrokeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBB4B4142C1B1800E0B039 /* PlayStrokeNode.m */; };
+		FBBBB4B9142C298800E0B039 /* PlayStrokeLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBBB4B8142C298800E0B039 /* PlayStrokeLineLayer.m */; };
+		FBC9A2C81429F3B1006FDA1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2C71429F3B1006FDA1D /* UIKit.framework */; };
+		FBC9A2CA1429F3B1006FDA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2C91429F3B1006FDA1D /* Foundation.framework */; };
+		FBC9A2CC1429F3B1006FDA1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2CB1429F3B1006FDA1D /* CoreGraphics.framework */; };
+		FBC9A2CE1429F3B1006FDA1D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2CD1429F3B1006FDA1D /* CoreData.framework */; };
+		FBC9A2D41429F3B1006FDA1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBC9A2D21429F3B1006FDA1D /* InfoPlist.strings */; };
+		FBC9A2D61429F3B1006FDA1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9A2D51429F3B1006FDA1D /* main.m */; };
+		FBC9A2DA1429F3B1006FDA1D /* SingleStrokeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9A2D91429F3B1006FDA1D /* SingleStrokeAppDelegate.m */; };
+		FBC9A2E81429F3B1006FDA1D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2E71429F3B1006FDA1D /* SenTestingKit.framework */; };
+		FBC9A2E91429F3B1006FDA1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2C71429F3B1006FDA1D /* UIKit.framework */; };
+		FBC9A2EA1429F3B1006FDA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2C91429F3B1006FDA1D /* Foundation.framework */; };
+		FBC9A2EB1429F3B1006FDA1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2CB1429F3B1006FDA1D /* CoreGraphics.framework */; };
+		FBC9A2EC1429F3B1006FDA1D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A2CD1429F3B1006FDA1D /* CoreData.framework */; };
+		FBC9A2F41429F3B1006FDA1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBC9A2F21429F3B1006FDA1D /* InfoPlist.strings */; };
+		FBC9A2F61429F3B1006FDA1D /* SingleStrokeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FBC9A2F51429F3B1006FDA1D /* SingleStrokeTests.h */; };
+		FBC9A2F81429F3B1006FDA1D /* SingleStrokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9A2F71429F3B1006FDA1D /* SingleStrokeTests.m */; };
+		FBC9A3021429F3E3006FDA1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC9A3011429F3E3006FDA1D /* QuartzCore.framework */; };
+		FBC9A305142A8B59006FDA1D /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9A304142A8B59006FDA1D /* PlayController.m */; };
+		FBC9A309142A8BBC006FDA1D /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC9A308142A8BBC006FDA1D /* PlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC9A2ED1429F3B1006FDA1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC9A2BA1429F3B1006FDA1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC9A2C21429F3B1006FDA1D;
+			remoteInfo = SingleStroke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB005D04142DD21600AC305C /* PlayScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScoreView.h; sourceTree = "<group>"; };
+		FB005D05142DD21600AC305C /* PlayScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScoreView.m; sourceTree = "<group>"; };
+		FB2040351489DECD00496A5C /* SingleStroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SingleStroke.png; path = 512/SingleStroke.png; sourceTree = "<group>"; };
+		FB2F3935148979A700653977 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		FB2F3936148979A700653977 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		FB2F3937148979A700653977 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		FB2F3938148979A700653977 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		FB2F3939148979A700653977 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		FB2F393A148979A700653977 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		FB2F393B148979A700653977 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		FB2F393C148979A700653977 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		FB2F394414897BD900653977 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FB9ABE69148978FD0089F766 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FB9ABE6A148978FD0089F766 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FB9ABE6B148978FD0089F766 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FB9ABE6C148978FD0089F766 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FBA336F8142CBAB5006C8C5F /* PlayTimeProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTimeProgressBar.h; sourceTree = "<group>"; };
+		FBA336F9142CBAB5006C8C5F /* PlayTimeProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTimeProgressBar.m; sourceTree = "<group>"; };
+		FBA75747142E37CF00E4A106 /* PlayFinishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayFinishView.h; sourceTree = "<group>"; };
+		FBA75748142E37CF00E4A106 /* PlayFinishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayFinishView.m; sourceTree = "<group>"; };
+		FBA7574A142EC3B100E4A106 /* PlayIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayIntroductionView.h; sourceTree = "<group>"; };
+		FBA7574B142EC3B100E4A106 /* PlayIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayIntroductionView.m; sourceTree = "<group>"; };
+		FBA7574E142F3EAC00E4A106 /* PlayTimeupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTimeupView.h; sourceTree = "<group>"; };
+		FBA7574F142F3EAC00E4A106 /* PlayTimeupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTimeupView.m; sourceTree = "<group>"; };
+		FBA75751142F49A900E4A106 /* SingleStroke-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SingleStroke-72.png"; sourceTree = "<group>"; };
+		FBBBB4B3142C1B1800E0B039 /* PlayStrokeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayStrokeNode.h; sourceTree = "<group>"; };
+		FBBBB4B4142C1B1800E0B039 /* PlayStrokeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayStrokeNode.m; sourceTree = "<group>"; };
+		FBBBB4B7142C298800E0B039 /* PlayStrokeLineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayStrokeLineLayer.h; sourceTree = "<group>"; };
+		FBBBB4B8142C298800E0B039 /* PlayStrokeLineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayStrokeLineLayer.m; sourceTree = "<group>"; };
+		FBC9A2C31429F3B1006FDA1D /* SingleStroke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleStroke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC9A2C71429F3B1006FDA1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBC9A2C91429F3B1006FDA1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBC9A2CB1429F3B1006FDA1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBC9A2CD1429F3B1006FDA1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBC9A2D11429F3B1006FDA1D /* SingleStroke-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleStroke-Info.plist"; sourceTree = "<group>"; };
+		FBC9A2D31429F3B1006FDA1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBC9A2D51429F3B1006FDA1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBC9A2D71429F3B1006FDA1D /* SingleStroke-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingleStroke-Prefix.pch"; sourceTree = "<group>"; };
+		FBC9A2D81429F3B1006FDA1D /* SingleStrokeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleStrokeAppDelegate.h; sourceTree = "<group>"; };
+		FBC9A2D91429F3B1006FDA1D /* SingleStrokeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleStrokeAppDelegate.m; sourceTree = "<group>"; };
+		FBC9A2E61429F3B1006FDA1D /* SingleStrokeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleStrokeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC9A2E71429F3B1006FDA1D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FBC9A2F11429F3B1006FDA1D /* SingleStrokeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleStrokeTests-Info.plist"; sourceTree = "<group>"; };
+		FBC9A2F31429F3B1006FDA1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBC9A2F51429F3B1006FDA1D /* SingleStrokeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleStrokeTests.h; sourceTree = "<group>"; };
+		FBC9A2F71429F3B1006FDA1D /* SingleStrokeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleStrokeTests.m; sourceTree = "<group>"; };
+		FBC9A3011429F3E3006FDA1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FBC9A303142A8B59006FDA1D /* PlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayController.h; sourceTree = "<group>"; };
+		FBC9A304142A8B59006FDA1D /* PlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayController.m; sourceTree = "<group>"; };
+		FBC9A307142A8BBC006FDA1D /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		FBC9A308142A8BBC006FDA1D /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC9A2C01429F3B1006FDA1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9ABE6D148978FD0089F766 /* AudioToolbox.framework in Frameworks */,
+				FB9ABE6E148978FD0089F766 /* iAd.framework in Frameworks */,
+				FB9ABE6F148978FD0089F766 /* MessageUI.framework in Frameworks */,
+				FB9ABE70148978FD0089F766 /* SystemConfiguration.framework in Frameworks */,
+				FBC9A3021429F3E3006FDA1D /* QuartzCore.framework in Frameworks */,
+				FBC9A2C81429F3B1006FDA1D /* UIKit.framework in Frameworks */,
+				FBC9A2CA1429F3B1006FDA1D /* Foundation.framework in Frameworks */,
+				FBC9A2CC1429F3B1006FDA1D /* CoreGraphics.framework in Frameworks */,
+				FBC9A2CE1429F3B1006FDA1D /* CoreData.framework in Frameworks */,
+				FB2F393D148979A700653977 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9A2E21429F3B1006FDA1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9A2E81429F3B1006FDA1D /* SenTestingKit.framework in Frameworks */,
+				FBC9A2E91429F3B1006FDA1D /* UIKit.framework in Frameworks */,
+				FBC9A2EA1429F3B1006FDA1D /* Foundation.framework in Frameworks */,
+				FBC9A2EB1429F3B1006FDA1D /* CoreGraphics.framework in Frameworks */,
+				FBC9A2EC1429F3B1006FDA1D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB005D08142DD22300AC305C /* View Parts */ = {
+			isa = PBXGroup;
+			children = (
+				FBBBB4B3142C1B1800E0B039 /* PlayStrokeNode.h */,
+				FBBBB4B4142C1B1800E0B039 /* PlayStrokeNode.m */,
+				FBBBB4B7142C298800E0B039 /* PlayStrokeLineLayer.h */,
+				FBBBB4B8142C298800E0B039 /* PlayStrokeLineLayer.m */,
+				FBA336F8142CBAB5006C8C5F /* PlayTimeProgressBar.h */,
+				FBA336F9142CBAB5006C8C5F /* PlayTimeProgressBar.m */,
+				FB005D04142DD21600AC305C /* PlayScoreView.h */,
+				FB005D05142DD21600AC305C /* PlayScoreView.m */,
+			);
+			name = "View Parts";
+			sourceTree = "<group>";
+		};
+		FB2F3934148979A700653977 /* GoogleAdMobAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F3935148979A700653977 /* GADBannerView.h */,
+				FB2F3936148979A700653977 /* GADBannerViewDelegate.h */,
+				FB2F3937148979A700653977 /* GADInterstitial.h */,
+				FB2F3938148979A700653977 /* GADInterstitialDelegate.h */,
+				FB2F3939148979A700653977 /* GADRequest.h */,
+				FB2F393A148979A700653977 /* GADRequestError.h */,
+				FB2F393B148979A700653977 /* libGoogleAdMobAds.a */,
+				FB2F393C148979A700653977 /* README.txt */,
+			);
+			path = GoogleAdMobAdsSDK;
+			sourceTree = "<group>";
+		};
+		FBA7574D142EFC7D00E4A106 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				FBA7574A142EC3B100E4A106 /* PlayIntroductionView.h */,
+				FBA7574B142EC3B100E4A106 /* PlayIntroductionView.m */,
+				FBA75747142E37CF00E4A106 /* PlayFinishView.h */,
+				FBA75748142E37CF00E4A106 /* PlayFinishView.m */,
+				FBA7574E142F3EAC00E4A106 /* PlayTimeupView.h */,
+				FBA7574F142F3EAC00E4A106 /* PlayTimeupView.m */,
+			);
+			name = Overlay;
+			sourceTree = "<group>";
+		};
+		FBC9A2B81429F3B1006FDA1D = {
+			isa = PBXGroup;
+			children = (
+				FBC9A2CF1429F3B1006FDA1D /* SingleStroke */,
+				FBC9A2EF1429F3B1006FDA1D /* SingleStrokeTests */,
+				FBC9A2C61429F3B1006FDA1D /* Frameworks */,
+				FBC9A2C41429F3B1006FDA1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC9A2C41429F3B1006FDA1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9A2C31429F3B1006FDA1D /* SingleStroke.app */,
+				FBC9A2E61429F3B1006FDA1D /* SingleStrokeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC9A2C61429F3B1006FDA1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9ABE69148978FD0089F766 /* AudioToolbox.framework */,
+				FB9ABE6A148978FD0089F766 /* iAd.framework */,
+				FB9ABE6B148978FD0089F766 /* MessageUI.framework */,
+				FB9ABE6C148978FD0089F766 /* SystemConfiguration.framework */,
+				FBC9A3011429F3E3006FDA1D /* QuartzCore.framework */,
+				FBC9A2C71429F3B1006FDA1D /* UIKit.framework */,
+				FBC9A2C91429F3B1006FDA1D /* Foundation.framework */,
+				FBC9A2CB1429F3B1006FDA1D /* CoreGraphics.framework */,
+				FBC9A2CD1429F3B1006FDA1D /* CoreData.framework */,
+				FBC9A2E71429F3B1006FDA1D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC9A2CF1429F3B1006FDA1D /* SingleStroke */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F3934148979A700653977 /* GoogleAdMobAdsSDK */,
+				FBC9A2D81429F3B1006FDA1D /* SingleStrokeAppDelegate.h */,
+				FBC9A2D91429F3B1006FDA1D /* SingleStrokeAppDelegate.m */,
+				FBC9A306142A8BAE006FDA1D /* Play */,
+				FBC9A2D01429F3B1006FDA1D /* Supporting Files */,
+				FB2F394414897BD900653977 /* Constants.h */,
+			);
+			path = SingleStroke;
+			sourceTree = "<group>";
+		};
+		FBC9A2D01429F3B1006FDA1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2040351489DECD00496A5C /* SingleStroke.png */,
+				FBA75751142F49A900E4A106 /* SingleStroke-72.png */,
+				FBC9A2D11429F3B1006FDA1D /* SingleStroke-Info.plist */,
+				FBC9A2D21429F3B1006FDA1D /* InfoPlist.strings */,
+				FBC9A2D51429F3B1006FDA1D /* main.m */,
+				FBC9A2D71429F3B1006FDA1D /* SingleStroke-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBC9A2EF1429F3B1006FDA1D /* SingleStrokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9A2F51429F3B1006FDA1D /* SingleStrokeTests.h */,
+				FBC9A2F71429F3B1006FDA1D /* SingleStrokeTests.m */,
+				FBC9A2F01429F3B1006FDA1D /* Supporting Files */,
+			);
+			path = SingleStrokeTests;
+			sourceTree = "<group>";
+		};
+		FBC9A2F01429F3B1006FDA1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9A2F11429F3B1006FDA1D /* SingleStrokeTests-Info.plist */,
+				FBC9A2F21429F3B1006FDA1D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBC9A306142A8BAE006FDA1D /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				FBC9A303142A8B59006FDA1D /* PlayController.h */,
+				FBC9A304142A8B59006FDA1D /* PlayController.m */,
+				FBC9A307142A8BBC006FDA1D /* PlayView.h */,
+				FBC9A308142A8BBC006FDA1D /* PlayView.m */,
+				FBA7574D142EFC7D00E4A106 /* Overlay */,
+				FB005D08142DD22300AC305C /* View Parts */,
+			);
+			name = Play;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC9A2C21429F3B1006FDA1D /* SingleStroke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC9A2FB1429F3B1006FDA1D /* Build configuration list for PBXNativeTarget "SingleStroke" */;
+			buildPhases = (
+				FBC9A2BF1429F3B1006FDA1D /* Sources */,
+				FBC9A2C01429F3B1006FDA1D /* Frameworks */,
+				FBC9A2C11429F3B1006FDA1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleStroke;
+			productName = SingleStroke;
+			productReference = FBC9A2C31429F3B1006FDA1D /* SingleStroke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC9A2E51429F3B1006FDA1D /* SingleStrokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC9A2FE1429F3B1006FDA1D /* Build configuration list for PBXNativeTarget "SingleStrokeTests" */;
+			buildPhases = (
+				FBC9A2E11429F3B1006FDA1D /* Sources */,
+				FBC9A2E21429F3B1006FDA1D /* Frameworks */,
+				FBC9A2E31429F3B1006FDA1D /* Resources */,
+				FBC9A2E41429F3B1006FDA1D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC9A2EE1429F3B1006FDA1D /* PBXTargetDependency */,
+			);
+			name = SingleStrokeTests;
+			productName = SingleStrokeTests;
+			productReference = FBC9A2E61429F3B1006FDA1D /* SingleStrokeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC9A2BA1429F3B1006FDA1D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FBC9A2BD1429F3B1006FDA1D /* Build configuration list for PBXProject "SingleStroke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBC9A2B81429F3B1006FDA1D;
+			productRefGroup = FBC9A2C41429F3B1006FDA1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC9A2C21429F3B1006FDA1D /* SingleStroke */,
+				FBC9A2E51429F3B1006FDA1D /* SingleStrokeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC9A2C11429F3B1006FDA1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9A2D41429F3B1006FDA1D /* InfoPlist.strings in Resources */,
+				FBA75752142F49A900E4A106 /* SingleStroke-72.png in Resources */,
+				FB2F393E148979A700653977 /* README.txt in Resources */,
+				FB2040361489DECD00496A5C /* SingleStroke.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9A2E31429F3B1006FDA1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9A2F41429F3B1006FDA1D /* InfoPlist.strings in Resources */,
+				FBC9A2F61429F3B1006FDA1D /* SingleStrokeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBC9A2E41429F3B1006FDA1D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC9A2BF1429F3B1006FDA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9A2D61429F3B1006FDA1D /* main.m in Sources */,
+				FBC9A2DA1429F3B1006FDA1D /* SingleStrokeAppDelegate.m in Sources */,
+				FBC9A305142A8B59006FDA1D /* PlayController.m in Sources */,
+				FBC9A309142A8BBC006FDA1D /* PlayView.m in Sources */,
+				FBBBB4B5142C1B1800E0B039 /* PlayStrokeNode.m in Sources */,
+				FBBBB4B9142C298800E0B039 /* PlayStrokeLineLayer.m in Sources */,
+				FBA336FA142CBAB5006C8C5F /* PlayTimeProgressBar.m in Sources */,
+				FB005D06142DD21600AC305C /* PlayScoreView.m in Sources */,
+				FBA75749142E37CF00E4A106 /* PlayFinishView.m in Sources */,
+				FBA7574C142EC3B100E4A106 /* PlayIntroductionView.m in Sources */,
+				FBA75750142F3EAD00E4A106 /* PlayTimeupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9A2E11429F3B1006FDA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9A2F81429F3B1006FDA1D /* SingleStrokeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC9A2EE1429F3B1006FDA1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC9A2C21429F3B1006FDA1D /* SingleStroke */;
+			targetProxy = FBC9A2ED1429F3B1006FDA1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC9A2D21429F3B1006FDA1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC9A2D31429F3B1006FDA1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBC9A2F21429F3B1006FDA1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC9A2F31429F3B1006FDA1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC9A2F91429F3B1006FDA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBC9A2FA1429F3B1006FDA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Taka Okunishi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Taka Okunishi";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C50632A4-448D-4C62-852A-55EA95F4F6E6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C50632A4-448D-4C62-852A-55EA95F4F6E6";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC9A2FC1429F3B1006FDA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleStroke/SingleStroke-Prefix.pch";
+				INFOPLIST_FILE = "SingleStroke/SingleStroke-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SingleStroke/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBC9A2FD1429F3B1006FDA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleStroke/SingleStroke-Prefix.pch";
+				INFOPLIST_FILE = "SingleStroke/SingleStroke-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SingleStroke/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FBC9A2FF1429F3B1006FDA1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SingleStroke.app/SingleStroke";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleStroke/SingleStroke-Prefix.pch";
+				INFOPLIST_FILE = "SingleStrokeTests/SingleStrokeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FBC9A3001429F3B1006FDA1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SingleStroke.app/SingleStroke";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleStroke/SingleStroke-Prefix.pch";
+				INFOPLIST_FILE = "SingleStrokeTests/SingleStrokeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC9A2BD1429F3B1006FDA1D /* Build configuration list for PBXProject "SingleStroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC9A2F91429F3B1006FDA1D /* Debug */,
+				FBC9A2FA1429F3B1006FDA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC9A2FB1429F3B1006FDA1D /* Build configuration list for PBXNativeTarget "SingleStroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC9A2FC1429F3B1006FDA1D /* Debug */,
+				FBC9A2FD1429F3B1006FDA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC9A2FE1429F3B1006FDA1D /* Build configuration list for PBXNativeTarget "SingleStrokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC9A2FF1429F3B1006FDA1D /* Debug */,
+				FBC9A3001429F3B1006FDA1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC9A2BA1429F3B1006FDA1D /* Project object */;
+}
